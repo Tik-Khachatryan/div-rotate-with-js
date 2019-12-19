@@ -1,0 +1,29 @@
+#rotate{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+#circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    margin: 24px;
+}
+
+/*#rotate{*/
+
+/*    animation:  anim 5s infinite;*/
+
+/*}*/
+
+@keyframes anim {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
